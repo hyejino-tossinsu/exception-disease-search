@@ -98,11 +98,11 @@ body{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif;background:var
     <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
     <input type="text" id="SI" placeholder="질환명 검색 (예: 용종, 갑상선, 디스크...)" autocomplete="off">
   </div>
+  <div class="tabs">
+    <button class="tab on" id="T1" onclick="switchTab('search')">&#x1F50D; 검색</button>
+    <button class="tab" id="T2" onclick="switchTab('dict')">&#x1F4D6; 질병 사전</button>
+  </div>
   <div class="tr">
-    <div class="tabs">
-      <button class="tab on" id="T1" onclick="switchTab('search')">&#x1F50D; 검색</button>
-      <button class="tab" id="T2" onclick="switchTab('dict')">&#x1F4D6; 질병 사전</button>
-    </div>
     <span class="rc" id="RC"></span>
     <select class="ss" id="SO">
       <option value="date_desc">최신순</option>
